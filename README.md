@@ -3,8 +3,8 @@ discriminative-patches
 
 This repository contains code for the following paper
 
-Saurabh Singh, Abhinav Gupta and Alexei A. Efros. "*Unsupervised Discovery of
-Mid-Level Discriminative Patches.*" In European Conference on Computer Vision
+Saurabh Singh, Abhinav Gupta and Alexei A. Efros. *"Unsupervised Discovery of
+Mid-Level Discriminative Patches."* In European Conference on Computer Vision
 (2012). (arXiv:1205.3137) http://graphics.cs.cmu.edu/projects/discriminativePatches/
 
 All Rights Reserved @ saurabh.me@gmail.com (Saurabh Singh).
@@ -13,13 +13,12 @@ All Rights Reserved @ saurabh.me@gmail.com (Saurabh Singh).
 Setup
 =====
 
-1. Git clone this repository (if you are reading this on git-hub).  
+1. Git clone this repository (if you are reading this on git-hub).
 2. Download the pre-trained models from the [project website](http://graphics.cs.cmu.edu/projects/discriminativePatches/) and un-compress the
 file in the root directory of the repository, i.e. as a sibling to the 'code'
-directory. Link to project website:
-  
+directory.
 3. Modify the setmeup.m file to make USR.imgDir and USR.modelDir point to the
-models directory.  
+models directory.
 4. cd to code/features directory and run 'mex features.cc' from the matlab prompt.
 (This is assuming you have mex already setup).  
 
