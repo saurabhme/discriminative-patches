@@ -7,5 +7,3 @@ USR.modelDir = '../models/';
 %
 
 addpath(genpath('./'));
-
-rmpath(genpath('./unused'));

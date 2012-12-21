@@ -10,7 +10,8 @@ data = prepareDataForPaths(USR.imgDir, imPaths);
 
 %% Run the detectors.
 % Construct detection parameters.
-detParams = getDefaultDetectionParams(detectors.params);
+detParams = getBaseDetectionParams();
+detParams.useDecisionThresh = true;
 detParams.fixedDecisionThresh = -0.9;
 % Run the detectors.
 res = detectors.detectPresenceInImg(data(1), USR.imgDir, true, detParams);
