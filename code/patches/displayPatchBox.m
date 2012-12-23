@@ -1,4 +1,5 @@
 function displayPatchBox(patches, scores, color, showScore)
+% Author: saurabh.me@gmail.com (Saurabh Singh).
 if nargin < 4
   showScore = true;
 end

@@ -1,4 +1,5 @@
 function [scale, nr, nc] = getCanonicalScale(canonicalSize, rows, cols)
+% Author: saurabh.me@gmail.com (Saurabh Singh).
 if rows < cols
   scale = canonicalSize / rows;
   nr = rows * scale;

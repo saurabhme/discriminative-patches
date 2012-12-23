@@ -1,6 +1,8 @@
 function [detections, decision] = getDetectionsForEntDets(detectors, ...
   pyramid, patchCanonicalSize, data, imgHome, detectionParams)
 % Performs the detections in the given image.
+%
+% Author: saurabh.me@gmail.com (Saurabh Singh).
 
 data = data.annotation;
 prSize = round(patchCanonicalSize(1) / pyramid.sbins) - 2;

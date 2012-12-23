@@ -1,4 +1,6 @@
 %% Do detection of discriminative patches.
+% Author: saurabh.me@gmail.com (Saurabh Singh).
+
 % Load up the models.
 
 load([USR.modelDir 'pascal.mat'], 'detectors');

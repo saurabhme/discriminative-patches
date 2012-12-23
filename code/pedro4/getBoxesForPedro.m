@@ -1,4 +1,5 @@
 function boxes = getBoxesForPedro(data, decisionScore)
+% Author: saurabh.me@gmail.com (Saurabh Singh).
 if ~exist('decisionScore', 'var')
   decisionScore = zeros(length(data), 1);
 end

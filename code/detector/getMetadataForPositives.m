@@ -1,5 +1,6 @@
 function [metadata] = getMetadataForPositives(selected, level,...
   indexes, prSize, pcSize, data, pyramid, imgHome)
+% Author: saurabh.me@gmail.com (Saurabh Singh).
 metadata = struct('im', {}, 'x1', {}, 'x2', {}, 'y1', {}, 'y2', {}, ...
     'flip', {}, 'trunc', {}, 'size', {});
 imPath = [imgHome data.folder '/' data.filename];

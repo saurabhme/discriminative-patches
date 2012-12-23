@@ -1,5 +1,7 @@
 function paths = getImagePaths(data, imgHome)
 % Gets the image paths.
+%
+% Author: saurabh.me@gmail.com (Saurabh Singh).
 
 if nargin < 2
   % If no image home is specified then don't prefix image home.

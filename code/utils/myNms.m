@@ -8,7 +8,8 @@ function pick = myNms(boxes, overlap)
 % NOTE: This is adapted from Pedro Felzenszwalb's version (nms.m),
 % but an inner loop has been eliminated to significantly speed it
 % up in the case of a large number of boxes
-% Tomasz Maliseiwicz (tomasz@cmu.edu)
+% Author: Tomasz Maliseiwicz (tomasz@cmu.edu)
+% Author: saurabh.me@gmail.com (Saurabh Singh).
 
 if isempty(boxes)
   pick = [];

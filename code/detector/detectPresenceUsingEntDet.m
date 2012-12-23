@@ -1,5 +1,6 @@
 function [results] = detectPresenceUsingEntDet(sample, ...
   detectors, params, imgHome, removeFeatures, detectionParams)
+% Author: saurabh.me@gmail.com (Saurabh Singh).
 
 pyra = constructFeaturePyramid(sample, params, imgHome);
 
