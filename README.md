@@ -1,4 +1,4 @@
-discriminative-patches
+Discriminative Patches
 ======================
 
 This repository contains code for the following paper
