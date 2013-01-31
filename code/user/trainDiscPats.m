@@ -1,7 +1,9 @@
 %% Train discriminative patches for pascal 2007 subset
+% Author: saurabh.me@gmail.com (Saurabh Singh).
+
 % Prepare the data
 
-dataFileName = [CONFIG.pascalDataDir 'PASCAL_DATA.mat'];
+dataFileName = [USR.pascalDataDir 'PASCAL_DATA.mat'];
 if ~exist(dataFileName, 'file')
   categories = {'horse', 'motorbike', 'bus', 'train', 'sofa', 'diningtable'};
   pascalTrainData = getPascalData('trainval', VOCopts);
@@ -17,10 +19,10 @@ end
 % WARNING: This code is supposed to be run on a cluster with shared file
 % system. Otherwise, it will take too long a time to complete the whole
 % discovery procedure (> week).
-warpCrossValClusteringUnsup(1, CONFIG, true);
+warpCrossValClusteringUnsup(1, USR, true);
 
 %% Assimilate the results from different batches.
 
-clustRoot = [CONFIG.processingDir 'pascalClusters/div2/train/'];
+clustRoot = [USR.processingDir 'pascalClusters/div2/train/'];
 outDir = [clustRoot 'assimilated/'];
 assimilateCrossValBatchResults(outDir, clustRoot, 4);

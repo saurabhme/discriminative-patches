@@ -33,8 +33,8 @@ VOCinit;
 
 % Set up global variables used throughout the codes
 % Processing directories
-CONFIG.processingDir = '../outputs/';
+USR.processingDir = '../outputs/';
 
-CONFIG.projectDataDir = CONFIG.processingDir;
-CONFIG.pascalDataDir = CONFIG.processingDir;
-CONFIG.pascalImgHome = [fileparts(VOCopts.imgpath) '/'];
+USR.projectDataDir = USR.processingDir;
+USR.pascalDataDir = USR.processingDir;
+USR.pascalImgHome = [fileparts(VOCopts.imgpath) '/'];

@@ -1,5 +1,7 @@
 function model = mySvmTrain(labels, features, flags, fullModel)
 % Train a svm and add extra attributes to the model
+%
+% Author: saurabh.me@gmail.com (Saurabh Singh).
 
 orgModel = svmtrain(labels, features, flags);
 if isLinearSvmRequested(flags)

@@ -1,4 +1,5 @@
-function warpCrossValClusteringUnsup(instanceId, CONFIG, testRun)
+function warpCrossValClusteringUnsup(instanceId, USR, testRun)
+% Author: saurabh.me@gmail.com (Saurabh Singh).
 try
   % Setup if running on a cluster.
   if nargin < 2
@@ -12,13 +13,13 @@ try
   rand('twister', instanceId);
   pause(rand(1,1) * 10);
 
-  rootDir = [CONFIG.processingDir 'pascalClusters/'];
+  rootDir = [USR.processingDir 'pascalClusters/'];
   if ~exist(rootDir, 'dir')
     mkdir(rootDir);
   end
 
   dataSet = 'pascal';
-  pascalData = getDataSet(dataSet, 'train', CONFIG);
+  pascalData = getDataSet(dataSet, 'train', USR);
 
   categories = pascalData.categories;
   pascalSplits = getTrainValSplitForCategory(pascalData.data, categories);

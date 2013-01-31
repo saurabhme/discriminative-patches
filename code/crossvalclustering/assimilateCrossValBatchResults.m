@@ -1,4 +1,5 @@
 function assimilateCrossValBatchResults(outDir, dataRoot, iterInd)
+% Author: saurabh.me@gmail.com (Saurabh Singh).
 if ~exist(outDir, 'dir')
   mkdir(outDir);
 end

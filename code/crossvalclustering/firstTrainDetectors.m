@@ -1,7 +1,7 @@
 function firstTrainDetectors(instanceId, selectedClusters, assignedClust, ...
   outputDir, posFeatures, negFeatures, negCorrespImgs, trainSetNeg, ...
   svmFlags)
-
+% Author: saurabh.me@gmail.com (Saurabh Singh).
   if ~exist(outputDir, 'dir')
     mkdir(outputDir);
   end
