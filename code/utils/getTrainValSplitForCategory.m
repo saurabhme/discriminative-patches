@@ -1,4 +1,5 @@
 function splits = getTrainValSplitForCategory(data, category)
+% Author: saurabh.me@gmail.com (Saurabh Singh).
 fprintf('Making Selection... \n');
 
 [pos neg] = makeSelection(data, category);

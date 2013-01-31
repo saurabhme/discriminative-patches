@@ -7,6 +7,7 @@ function saveInfoForWarpProcessing(saveDir, assignedClust, ...
 % ALL_DATA.mat: It effectively contains all the data that is generated as a
 % result of various steps. This could be used by the cluster processing
 % step.
+% Author: saurabh.me@gmail.com (Saurabh Singh).
 
 if ~exist(saveDir, 'dir')
   mkdir(saveDir);

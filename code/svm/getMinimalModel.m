@@ -1,5 +1,6 @@
 function minModel = getMinimalModel(model)
 % precomputes the weight vectors.
+% Author: saurabh.me@gmail.com (Saurabh Singh).
 suppVec = model.SVs;
 coeff = model.sv_coef;
 coeff = repmat(coeff, 1, size(suppVec, 2));

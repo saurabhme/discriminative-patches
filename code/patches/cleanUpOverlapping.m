@@ -1,5 +1,6 @@
 function [selected, order] = cleanUpOverlapping(patches, scores, ...
   correspImgs, maxOverlap)
+% Author: saurabh.me@gmail.com (Saurabh Singh).
 [unused, inds] = sort(scores, 'descend');
 selected = false(size(patches));
 sortedPats = patches(inds);

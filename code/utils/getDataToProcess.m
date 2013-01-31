@@ -1,5 +1,6 @@
 function [posData, negData, allPosData, allNegData] = getDataToProcess( ...
   mode, processingDir)
+% Author: saurabh.me@gmail.com (Saurabh Singh).
 switch(mode)
   case 'Test'
     fprintf('Loading testing images data ...  \n');

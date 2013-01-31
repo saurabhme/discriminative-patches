@@ -1,5 +1,7 @@
 function data = getPascalData(imgset, VOCopts)
 % Prepare the pascal data in a format used by the code.
+%
+% Author: saurabh.me@gmail.com (Saurabh Singh).
 
 ids = textread(sprintf(VOCopts.imgsetpath, imgset), '%s');
 % numIds = textread(sprintf(VOCopts.imgsetpath, imgset), '%d');

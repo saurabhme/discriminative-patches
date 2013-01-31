@@ -1,4 +1,5 @@
 function pBar = createProgressBar()
+% Author: saurabh.me@gmail.com (Saurabh Singh).
 fprintf('\n');
 pBar = @progressRenderer;
 end

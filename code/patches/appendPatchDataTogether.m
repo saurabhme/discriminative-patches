@@ -1,5 +1,6 @@
 function [newFeat, newPats, newInds] = appendPatchDataTogether( ...
   features, patchesPerImg, totalProcessed)
+% Author: saurabh.me@gmail.com (Saurabh Singh).
 newFeat = zeros(totalProcessed, size(features{1}, 2));
 newPats = getEmptyPascalStruct();
 newInds = zeros(totalProcessed, 2);

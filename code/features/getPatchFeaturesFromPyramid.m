@@ -1,4 +1,5 @@
 function feats = getPatchFeaturesFromPyramid(patches, pyramid, params)
+% Author: saurabh.me@gmail.com (Saurabh Singh).
 [nrows, ncols, nzee] = getCanonicalPatchHOGSize(params);
 numElement = nrows * ncols * nzee;
 feats = zeros(length(patches), numElement);

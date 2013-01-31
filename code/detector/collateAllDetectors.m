@@ -1,6 +1,8 @@
 function [collatedDetector, numDets, allParams] = collateAllDetectors( ...
   basePath, subDirs, detFileName)
 % Collates the detectors of the specified categories.
+%
+% Author: saurabh.me@gmail.com (Saurabh Singh).
 
 dets = cell(1, length(subDirs));
 numDets = zeros(1, length(subDirs));

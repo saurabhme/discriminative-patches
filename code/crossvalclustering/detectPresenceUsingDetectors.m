@@ -1,5 +1,6 @@
 function detectPresenceUsingDetectors(instanceId, procDir, outputDir, ...
   detectors, selectedClusters, detectionParams, mode)
+% Author: saurabh.me@gmail.com (Saurabh Singh).
 try
 
 if ~exist('mode', 'var')

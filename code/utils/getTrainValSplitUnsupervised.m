@@ -1,4 +1,5 @@
 function splits = getTrainValSplitUnsupervised(trainAllPos, trainAllNeg)
+% Author: saurabh.me@gmail.com (Saurabh Singh).
 posSplit = ceil(length(trainAllPos) / 2);
 negSplit = ceil(length(trainAllNeg) / 2);
 

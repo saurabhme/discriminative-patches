@@ -1,5 +1,6 @@
 function [model, result] = trainCluster(posFeatures, ...
         negFeatures, svmFlags)
+% Author: saurabh.me@gmail.com (Saurabh Singh).
   features = [posFeatures; negFeatures];
   labels = [ones(size(posFeatures, 1), 1); ...
     ones(size(negFeatures, 1), 1) * -1];

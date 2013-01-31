@@ -1,5 +1,6 @@
 function [patches, patFeats, probabilities] = sampleRandomPatches(pos, ...
   imgHome, params)
+% Author: saurabh.me@gmail.com (Saurabh Singh).
 levelFactor = params.levelFactor;
 data = pos;
 pos = pos.annotation;

@@ -1,4 +1,6 @@
 function collateDetectionResults(dataDir, selectedClusters)
+% Author: saurabh.me@gmail.com (Saurabh Singh).
+
 % load([procDir 'ALL_DATA.mat']);
 % load([procDir 'CLUSTER_PROCESSING_INFO']);
 

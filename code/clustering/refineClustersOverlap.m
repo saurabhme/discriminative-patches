@@ -6,6 +6,7 @@ function [finGoodClusters, refinedClusters, centers, goodClusterScores] = ...
 % iteratively removing patches
 % 
 % TODO: Remove outliers from the clusters.
+% Author: saurabh.me@gmail.com (Saurabh Singh).
 
 maxOverlap = 0.1;
 selectedClusters = selectClustAboveThresh(params, assignedClust);

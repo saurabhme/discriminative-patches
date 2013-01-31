@@ -1,4 +1,5 @@
 function numbers = getRandForPdf(dist, n)
+% Author: saurabh.me@gmail.com (Saurabh Singh).
 cumul = cumsum(dist);
 steps = 0:1/(length(dist)-1):1;
 cumulInv = zeros(1, length(cumul));

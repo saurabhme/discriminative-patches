@@ -1,5 +1,6 @@
 function hardNegMineTrainDetectors(instanceId, procDir, outputDir, ...
   detectors, trainingData)
+% Author: saurabh.me@gmail.com (Saurabh Singh).
 
   if ~exist(outputDir, 'dir')
     mkdir(outputDir);

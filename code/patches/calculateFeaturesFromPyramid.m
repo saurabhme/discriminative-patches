@@ -1,6 +1,8 @@
 function [features, collatedPatches, indexes] = ...
   calculateFeaturesFromPyramid(patches, params, imgIds)
 % indexes: Index of the image corresponding to the patch.
+%
+% Author: saurabh.me@gmail.com (Saurabh Singh).
 
 allFeatures = cell(size(patches));
 tic;
