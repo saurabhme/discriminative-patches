@@ -1,4 +1,4 @@
-function warpCrossValClusteringUnsupHayes(instanceId, CONFIG, testRun)
+function warpCrossValClusteringUnsup(instanceId, CONFIG, testRun)
 try
   % Setup if running on a cluster.
   if nargin < 2

@@ -11,8 +11,13 @@ else
 end
 
 %% Do the training.
-
-warpCrossValClusteringUnsupHayes(1, CONFIG, true);
+% Note: The third arguments run the training in test mode. This ensures
+% that the code finishes in < 10 mins and is just to ensure that it runs
+% end to end. To do real run it should be 'false'.
+% WARNING: This code is supposed to be run on a cluster with shared file
+% system. Otherwise, it will take too long a time to complete the whole
+% discovery procedure (> week).
+warpCrossValClusteringUnsup(1, CONFIG, true);
 
 %% Assimilate the results from different batches.
 
