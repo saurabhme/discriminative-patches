@@ -39,7 +39,9 @@ Start by taking a look at
 [trainDiscPats.m](https://github.com/saurabhme/discriminative-patches/blob/master/code/user/trainDiscPats.m).
 This script runs a training job for the pascal sub-dataset used in paper. Pay
 attention to the comments related to run time. To run on your own dataset create
-a script similar to getPascalData() that generates the required metadata.
+a script similar to
+[getPascalData.m](https://github.com/saurabhme/discriminative-patches/blob/master/code/datasets/pascal/getPascalData.m)
+that generates the required metadata.
 
 
 Acknowledgements
